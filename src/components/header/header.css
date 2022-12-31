@@ -26,17 +26,18 @@ header {
     gap: 1rem;
 }
 .programmer {
-    width: 22rem;
-    height: 30rem;
+    width: 32rem;
+    height: 40rem;
     position: absolute;
-    left: calc(50% - 11rem);
     overflow: hidden;
-    border-radius: 0.4rem;
+    border-radius: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1024px){
     header {
-        height: 68vh;
+        height: 100vh;
     }
 }
 
