@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    padding-bottom: 9.5rem;
 }
 
 .about_me {
@@ -70,7 +71,7 @@
         width: 65%;
         margin: 0 auto 3rem;
     }
-    .about_cards {
+    .about_me-image {
         display: none;
     }
     .about_content {

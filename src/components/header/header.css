@@ -1,6 +1,7 @@
 header {
     height: 100vh;
     overflow: hidden;
+    padding-top: 1rem;
 }
 
 .header_container {
@@ -23,6 +24,20 @@ header {
     justify-content: center;
     margin-top: .4rem;
     gap: 1rem;
+}
+.header_socials a {
+    background: var(--color-primary);
+    color: var(--color-bg);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.header_socials a:hover {
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-primary);
 }
 .programmer {
     width: 32rem;
