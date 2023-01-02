@@ -1,6 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 import Programmer from "../../assests/programmer.jpg";
+import reactPhoto from '../../assests/reactProject.png';
+import bootstrapPhoto from '../../assests/bootstrapProject.png';
+import bootcamp from '../../assests/nucampProject.png';
 
 const Portfolio = () => {
     return (
@@ -11,12 +14,36 @@ const Portfolio = () => {
             <div className="container portfolio_container">
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={Programmer} alt="Project 1"></img>
+                        <img src={reactPhoto} alt="Project 1"></img>
                     </div>
-                    <h3>Project title</h3>
+                    <h3>Better Back Health - React</h3>
                     <div className="portfolio_item-cta">
                         <a
+                            href="https://github.com/RemleyNick/react-portfolio"
+                            className="btn"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Github
+                        </a>
+                        <a
                             href="https://github.com/RemleyNick/bootstrap-project"
+                            className="btn btn-primary"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article className="portfolio_item">
+                    <div className="portfolio_item-image">
+                        <img src={bootcamp} alt="Project 1"></img>
+                    </div>
+                    <h3>Coding Bootcamp Website - React/Redux</h3>
+                    <div className="portfolio_item-cta">
+                        <a
+                            href="https://github.com/RemleyNick/bootcamp-react"
                             className="btn"
                             target="_blank"
                             rel="noreferrer"
@@ -59,33 +86,9 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={Programmer} alt="Project 1"></img>
+                        <img src={bootstrapPhoto} alt="Project 1"></img>
                     </div>
-                    <h3>Project title</h3>
-                    <div className="portfolio_item-cta">
-                        <a
-                            href="https://github.com/RemleyNick/bootstrap-project"
-                            className="btn"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Github
-                        </a>
-                        <a
-                            href="https://github.com/RemleyNick/bootstrap-project"
-                            className="btn btn-primary"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Live Demo
-                        </a>
-                    </div>
-                </article>
-                <article className="portfolio_item">
-                    <div className="portfolio_item-image">
-                        <img src={Programmer} alt="Project 1"></img>
-                    </div>
-                    <h3>Project title</h3>
+                    <h3>Better Back Health - Bootstrap</h3>
                     <div className="portfolio_item-cta">
                         <a
                             href="https://github.com/RemleyNick/bootstrap-project"

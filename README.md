@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Portfolio Website
+
+This responsive portfolio website was designed from scratch to display my other projects, as well as provide additional information about me.
+
+---
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
