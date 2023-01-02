@@ -25,10 +25,11 @@ const Footer = () => {
                 <a
                     href="https://www.linkedin.com/in/nick-remley/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <BsLinkedin />
                 </a>
-                <a href="https://github.com/RemleyNick" target="_blank">
+                <a href="https://github.com/RemleyNick" target="_blank" rel="noreferrer">
                     <BsGithub />
                 </a>
             </div>

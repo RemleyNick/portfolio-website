@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className="container portfolio_container">
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={Programmer} alt="Project 1 Image"></img>
+                        <img src={Programmer} alt="Project 1"></img>
                     </div>
                     <h3>Project title</h3>
                     <div className="portfolio_item-cta">
@@ -19,6 +19,7 @@ const Portfolio = () => {
                             href="https://github.com/RemleyNick/bootstrap-project"
                             className="btn"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Github
                         </a>
@@ -26,6 +27,7 @@ const Portfolio = () => {
                             href="https://github.com/RemleyNick/bootstrap-project"
                             className="btn btn-primary"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Live Demo
                         </a>
@@ -33,7 +35,7 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={Programmer} alt="Project 1 Image"></img>
+                        <img src={Programmer} alt="Project 1"></img>
                     </div>
                     <h3>Project title</h3>
                     <div className="portfolio_item-cta">
@@ -41,6 +43,7 @@ const Portfolio = () => {
                             href="https://github.com/RemleyNick/bootstrap-project"
                             className="btn"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Github
                         </a>
@@ -48,6 +51,7 @@ const Portfolio = () => {
                             href="https://github.com/RemleyNick/bootstrap-project"
                             className="btn btn-primary"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Live Demo
                         </a>
@@ -55,7 +59,7 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={Programmer} alt="Project 1 Image"></img>
+                        <img src={Programmer} alt="Project 1"></img>
                     </div>
                     <h3>Project title</h3>
                     <div className="portfolio_item-cta">
@@ -63,6 +67,7 @@ const Portfolio = () => {
                             href="https://github.com/RemleyNick/bootstrap-project"
                             className="btn"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Github
                         </a>
@@ -70,6 +75,7 @@ const Portfolio = () => {
                             href="https://github.com/RemleyNick/bootstrap-project"
                             className="btn btn-primary"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Live Demo
                         </a>
@@ -77,7 +83,7 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={Programmer} alt="Project 1 Image"></img>
+                        <img src={Programmer} alt="Project 1"></img>
                     </div>
                     <h3>Project title</h3>
                     <div className="portfolio_item-cta">
@@ -85,6 +91,7 @@ const Portfolio = () => {
                             href="https://github.com/RemleyNick/bootstrap-project"
                             className="btn"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Github
                         </a>
@@ -92,6 +99,7 @@ const Portfolio = () => {
                             href="https://github.com/RemleyNick/bootstrap-project"
                             className="btn btn-primary"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Live Demo
                         </a>
