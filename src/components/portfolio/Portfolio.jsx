@@ -27,7 +27,7 @@ const Portfolio = () => {
                             Github
                         </a>
                         <a
-                            href="https://github.com/RemleyNick/bootstrap-project"
+                            href="https://betterbackhealth.netlify.app/"
                             className="btn btn-primary"
                             target="_blank"
                             rel="noreferrer"
@@ -64,7 +64,7 @@ const Portfolio = () => {
                     <div className="portfolio_item-image">
                         <img src={Programmer} alt="Project 1"></img>
                     </div>
-                    <h3>This Portfolio Website</h3>
+                    <h3>This Portfolio Website - React</h3>
                     <div className="portfolio_item-cta">
                         <a
                             href="https://github.com/RemleyNick/portfolio-website"
