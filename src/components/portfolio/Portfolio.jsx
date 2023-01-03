@@ -51,7 +51,7 @@ const Portfolio = () => {
                             Github
                         </a>
                         <a
-                            href="https://github.com/RemleyNick/bootstrap-project"
+                            href="https://bootcamp-react-site.netlify.app/"
                             className="btn btn-primary"
                             target="_blank"
                             rel="noreferrer"
