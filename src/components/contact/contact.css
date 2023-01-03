@@ -33,3 +33,15 @@ h5 {
     color: var(--color-light);
     padding-top: 0.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+    h5 {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h5 {
+        padding-top: 0;
+    }
+}

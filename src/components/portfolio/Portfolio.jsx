@@ -1,9 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 import Programmer from "../../assests/programmer.jpg";
-import reactPhoto from '../../assests/reactProject.png';
-import bootstrapPhoto from '../../assests/bootstrapProject.png';
-import bootcamp from '../../assests/nucampProject.png';
+import reactPhoto from "../../assests/reactProject.png";
+import bootstrapPhoto from "../../assests/bootstrapProject.png";
+import bootcamp from "../../assests/nucampProject.png";
 
 const Portfolio = () => {
     return (
@@ -64,22 +64,17 @@ const Portfolio = () => {
                     <div className="portfolio_item-image">
                         <img src={Programmer} alt="Project 1"></img>
                     </div>
-                    <h3>Project title</h3>
+                    <h3>This Portfolio Website</h3>
                     <div className="portfolio_item-cta">
                         <a
-                            href="https://github.com/RemleyNick/bootstrap-project"
+                            href="https://github.com/RemleyNick/portfolio-website"
                             className="btn"
                             target="_blank"
                             rel="noreferrer"
                         >
                             Github
                         </a>
-                        <a
-                            href="https://github.com/RemleyNick/bootstrap-project"
-                            className="btn btn-primary"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
+                        <a href="#" className="btn btn-primary">
                             Live Demo
                         </a>
                     </div>

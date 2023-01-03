@@ -56,20 +56,24 @@
     .about_container {
         grid-template-columns: 1fr;
         gap: 0;
+        padding-bottom: 0;
     }
     .about_me {
         width: 50%;
-        margin: 2rem auto 4rem;
+        margin: 0rem auto 3rem;
     }
     .about_content p {
-        margin: 1rem 0 1.5rem;
+        /* margin: 1rem 0 1.5rem; */
+        margin-bottom: 0;
     }
 }
 
 @media screen and (max-width: 600px){
     .about_me {
-        width: 65%;
-        margin: 0 auto 3rem;
+        display: none;
+    }
+    .about_container {
+        padding-bottom: 0;
     }
     .about_me-image {
         display: none;
@@ -78,6 +82,6 @@
         text-align: center;
     }
     .about_content p {
-        margin: 1.5rem 0;
+        margin-top: 1.5rem;
     }
 }
