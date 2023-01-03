@@ -8,7 +8,7 @@ import bootcamp from "../../assests/nucampProject.png";
 const Portfolio = () => {
     return (
         <section id="portfolio">
-            <h5>My Work</h5>
+            <h5>My</h5>
             <h2>Projects</h2>
 
             <div className="container portfolio_container">
