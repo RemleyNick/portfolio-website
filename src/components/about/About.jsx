@@ -18,16 +18,16 @@ const About = () => {
         <div className="about_content">
         <div className="about_cards">
             <article className='about_card'>
-              <h5>CSS</h5>
+              <h5>Javascript</h5>
             </article>
             <article className='about_card'>
-              <h5>Javascript</h5>
+              <h5>React</h5>
             </article>
             <article className='about_card'>
               <h5>Bootstrap</h5>
             </article>
             <article className='about_card'>
-              <h5>React</h5>
+              <h5>HTML/CSS</h5>
             </article>            <article className='about_card'>
               <h5>React Native</h5>
             </article>            <article className='about_card'>
@@ -36,7 +36,7 @@ const About = () => {
           </div>
           
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Hi, Nick here! I'm a web developer with passion for utilizing technology to help people lead easier, happier, and healthier lives. I am a lifelong learner, currently furthering my knowledge with a coding bootcamp. I am driven by improvement, continuing my growth as a developer, and being a high-performer for my team. My references will say I am an ideal teammate, a hard-worker, detail-oriented, and a leader.
           </p>
         </div>
       </div>

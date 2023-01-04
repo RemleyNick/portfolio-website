@@ -4,6 +4,7 @@ import Programmer from "../../assests/programmer.jpg";
 import reactPhoto from "../../assests/reactProject.png";
 import bootstrapPhoto from "../../assests/bootstrapProject.png";
 import bootcamp from "../../assests/nucampProject.png";
+import budgetApp from "../../assests/budgetApp.png";
 
 const Portfolio = () => {
     return (
@@ -81,12 +82,12 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={bootstrapPhoto} alt="Project 1"></img>
+                        <img src={budgetApp} alt="Project 1"></img>
                     </div>
-                    <h3>Better Back Health - Bootstrap</h3>
+                    <h3>Budget Tracker App</h3>
                     <div className="portfolio_item-cta">
                         <a
-                            href="https://github.com/RemleyNick/bootstrap-project"
+                            href="https://github.com/RemleyNick/budget-app-react"
                             className="btn"
                             target="_blank"
                             rel="noreferrer"
@@ -94,7 +95,7 @@ const Portfolio = () => {
                             Github
                         </a>
                         <a
-                            href="https://github.com/RemleyNick/bootstrap-project"
+                            href="https://keep-budget-react.netlify.app/"
                             className="btn btn-primary"
                             target="_blank"
                             rel="noreferrer"

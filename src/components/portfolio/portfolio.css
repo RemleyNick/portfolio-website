@@ -23,6 +23,7 @@ h5 {
 .portfolio_item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    max-height: 45vh;
 }
 
 .portfolio_item h3 {
