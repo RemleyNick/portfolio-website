@@ -27,11 +27,11 @@ const About = () => {
               <h5>Bootstrap</h5>
             </article>
             <article className='about_card'>
-              <h5>HTML/CSS</h5>
+              <h5 className='low_card'>HTML/CSS</h5>
             </article>            <article className='about_card'>
               <h5>React Native</h5>
             </article>            <article className='about_card'>
-              <h5>Node.js</h5>
+              <h5 className='low_card'>Node.js</h5>
             </article>
           </div>
           

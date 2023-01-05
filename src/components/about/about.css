@@ -63,7 +63,6 @@
         margin: 0rem auto 3rem;
     }
     .about_content p {
-        /* margin: 1rem 0 1.5rem; */
         margin-bottom: 0;
     }
 }
@@ -83,5 +82,8 @@
     }
     .about_content p {
         margin-top: 1.5rem;
+    }
+    .low_card {
+        margin-top: 0.9rem;
     }
 }
