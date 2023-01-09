@@ -29,7 +29,11 @@ const Footer = () => {
                 >
                     <BsLinkedin />
                 </a>
-                <a href="https://github.com/RemleyNick" target="_blank" rel="noreferrer">
+                <a
+                    href="https://github.com/RemleyNick"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <BsGithub />
                 </a>
             </div>
