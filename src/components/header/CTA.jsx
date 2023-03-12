@@ -5,7 +5,7 @@ const CTA = () => {
     return (
         <div className="cta">
             <a href={CV} target="_blank" rel="noopener noreferrer" className="btn">
-                View CV
+                See Resume
             </a>
             <a href="#portfolio" className="btn btn-primary">
                 My Projects

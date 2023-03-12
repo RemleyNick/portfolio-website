@@ -4,6 +4,10 @@ h5 {
 .project-title {
     text-align: center;
 }
+.project-paragraph {
+    text-align: center;
+    color: var(--color-light);
+}
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -30,7 +34,7 @@ h5 {
 }
 
 .portfolio_item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 .5rem;
 }
 
 .portfolio_item-cta {
