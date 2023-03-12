@@ -4,8 +4,8 @@ import CV from "../../assests/Nicholas-Remley-Resume.pdf";
 const CTA = () => {
     return (
         <div className="cta">
-            <a href={CV} download className="btn">
-                Download CV
+            <a href={CV} target="_blank" rel="noopener noreferrer" className="btn">
+                View CV
             </a>
             <a href="#portfolio" className="btn btn-primary">
                 My Projects

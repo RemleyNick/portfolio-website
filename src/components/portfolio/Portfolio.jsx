@@ -2,7 +2,6 @@ import React from "react";
 import "./portfolio.css";
 import Programmer from "../../assests/programmer.jpg";
 import reactPhoto from "../../assests/reactProject.png";
-import bootstrapPhoto from "../../assests/bootstrapProject.png";
 import bootcamp from "../../assests/nucampProject.png";
 import budgetApp from "../../assests/budgetApp.png";
 
@@ -17,7 +16,7 @@ const Portfolio = () => {
                     <div className="portfolio_item-image">
                         <img src={reactPhoto} alt="Project 1"></img>
                     </div>
-                    <h3>Better Back Health - React</h3>
+                    <h3 className="project-title">Better Back Health</h3>
                     <div className="portfolio_item-cta">
                         <a
                             href="https://github.com/RemleyNick/react-portfolio"
@@ -41,7 +40,7 @@ const Portfolio = () => {
                     <div className="portfolio_item-image">
                         <img src={bootcamp} alt="Project 1"></img>
                     </div>
-                    <h3>Coding Bootcamp Website - React/Redux</h3>
+                    <h3 className="project-title">Coding Bootcamp Website</h3>
                     <div className="portfolio_item-cta">
                         <a
                             href="https://github.com/RemleyNick/bootcamp-react"
@@ -65,7 +64,7 @@ const Portfolio = () => {
                     <div className="portfolio_item-image">
                         <img src={Programmer} alt="Project 1"></img>
                     </div>
-                    <h3>This Portfolio Website - React</h3>
+                    <h3 className="project-title">This Portfolio Website</h3>
                     <div className="portfolio_item-cta">
                         <a
                             href="https://github.com/RemleyNick/portfolio-website"
@@ -84,7 +83,7 @@ const Portfolio = () => {
                     <div className="portfolio_item-image">
                         <img src={budgetApp} alt="Project 1"></img>
                     </div>
-                    <h3>Budget Tracker App</h3>
+                    <h3 className="project-title">Budget Tracker App</h3>
                     <div className="portfolio_item-cta">
                         <a
                             href="https://github.com/RemleyNick/budget-app-react"

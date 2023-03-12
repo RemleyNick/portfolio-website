@@ -1,6 +1,9 @@
 h5 {
     padding-top: 2rem;
 }
+.project-title {
+    text-align: center;
+}
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
