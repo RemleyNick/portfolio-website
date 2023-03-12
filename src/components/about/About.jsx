@@ -38,14 +38,7 @@ const About = () => {
                     </div>
 
                     <p>
-                        Hi, Nick here! I'm a web developer with passion for
-                        utilizing technology to help people lead easier, less
-                        stressful, and more productive lives. I am a lifelong
-                        learner, as displayed by completing two coding bootcamps
-                        at the same time. I am driven by improvement, continuing
-                        my growth as a developer, and being a high-performer for
-                        my team. My references will say I am an ideal teammate,
-                        a hard-worker, detail-oriented, and a leader.
+                        Hi, Nick here! Since the moment I produced "Hello World" in the console of my first application, I have been captivated by the world of software development. This industry presents a constant and engaging challenge, one that has enabled me to consistently improve and enhance my skills in the creation of high-quality software. What began as a simple "Hello World" project quickly evolved into a deep-seated passion that has only continued to flourish. My mission is to leverage technology to enable individuals to live simpler, more productive, and less stressful lives.
                     </p>
                 </div>
             </div>
