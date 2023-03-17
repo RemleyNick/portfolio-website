@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import Programmer from "../../assests/programmer.jpg";
 import reactPhoto from "../../assests/reactProject.png";
-import bootcamp from "../../assests/nucampProject.png";
+import bjj from "../../assests/imperialBJJ.png";
 import budgetApp from "../../assests/budgetApp.png";
 
 const Portfolio = () => {
@@ -39,13 +39,13 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={bootcamp} alt="Project 1"></img>
+                        <img src={bjj} alt="Project 1"></img>
                     </div>
-                    <h3 className="project-title">Coding Bootcamp Website</h3>
-                    <p className="project-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h3 className="project-title">Imperial BJJ Website</h3>
+                    <p className="project-paragraph">I developed a website for a local Jiu Jitsu gym using HTML and CSS. The website features information about the gym's programs, schedule, and instructors, as well as a contact form. I focused on creating a clean and modern design that is easy to navigate, with responsive layouts for optimal viewing on desktop and mobile devices. The project was client-driven to meet their preferences and needs.</p>
                     <div className="portfolio_item-cta">
                         <a
-                            href="https://github.com/RemleyNick/bootcamp-react"
+                            href="https://github.com/RemleyNick/imperialBJJ"
                             className="btn"
                             target="_blank"
                             rel="noreferrer"
@@ -53,7 +53,7 @@ const Portfolio = () => {
                             Github
                         </a>
                         <a
-                            href="https://bootcamp-react-site.netlify.app/"
+                            href="https://imperialbjj.netlify.app/"
                             className="btn btn-primary"
                             target="_blank"
                             rel="noreferrer"
