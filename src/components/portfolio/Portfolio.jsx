@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import Programmer from "../../assests/programmer.jpg";
 import reactPhoto from "../../assests/reactProject.png";
 import bjj from "../../assests/imperialBJJ.png";
 import budgetApp from "../../assests/budgetApp.png";
