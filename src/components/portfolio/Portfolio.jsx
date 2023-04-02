@@ -4,6 +4,8 @@ import reactPhoto from "../../assests/reactProject.png";
 import bjj from "../../assests/imperialBJJ.png";
 import budgetApp from "../../assests/budgetApp.png";
 import BBHmobile from "../../assests/BBHmobile.png";
+import programmer from "../../assests/programmer.jpg";
+import lifespan from "../../assests/lifespan.png";
 
 const Portfolio = () => {
     return (
@@ -142,6 +144,66 @@ const Portfolio = () => {
                         </a>
                         <a
                             href="https://keep-budget-react.netlify.app/"
+                            className="btn btn-primary"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article className="portfolio_item">
+                    <div className="portfolio_item-image">
+                        <img src={programmer} alt="Portfolio Website"></img>
+                    </div>
+                    <h3 className="project-title">Portfolio Website</h3>
+                    <p className="project-paragraph">
+                        Designed to be fully responsive, my portfolio website
+                        provides an interactive platform to showcase my
+                        projects, highlight my technical skills, and offer
+                        insights into my professional background and personal
+                        interests. Developed from the ground up using React and
+                        CSS to ensure a smooth, intuitive user experience.
+                    </p>
+                    <div className="portfolio_item-cta">
+                        <a
+                            href="https://github.com/RemleyNick/portfolio-website"
+                            className="btn"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Github
+                        </a>
+                        <a href="#" className="btn btn-primary">
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article className="portfolio_item">
+                    <div className="portfolio_item-image">
+                        <img src={lifespan} alt="Lifespan Tracker"></img>
+                    </div>
+                    <h3 className="project-title">Lifespan Tracker</h3>
+                    <p className="project-paragraph">
+                        The lifespan tracker application can serve as a tool to
+                        promote self-reflection and goal-setting, as well as a
+                        visualization of the passage of time. The tracker prompts
+                        the user to enter their date of birth, then highlights a
+                        grid of boxes representing their weeks lived and the
+                        average life expectency - built using HTML, CSS, and
+                        JavaScript.
+                    </p>
+                    <div className="portfolio_item-cta">
+                        <a
+                            href="https://github.com/RemleyNick/lifespan-app"
+                            className="btn"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Github
+                        </a>
+                        <a
+                            href="https://lifespan-tracker.netlify.app/"
                             className="btn btn-primary"
                             target="_blank"
                             rel="noreferrer"
