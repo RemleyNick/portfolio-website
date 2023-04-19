@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assests/Remley_Resume.pdf";
+import CV from "../../assests/RemleyResume.pdf";
 
 const CTA = () => {
     return (
