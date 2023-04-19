@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import reactPhoto from "../../assests/reactProject.png";
 import bjj from "../../assests/imperialBJJ.png";
-import budgetApp from "../../assests/budgetApp.png";
+import southwestmt from "../../assests/southwestMT.png";
 import BBHmobile from "../../assests/BBHmobile.png";
 import programmer from "../../assests/programmer.jpg";
 import lifespan from "../../assests/lifespan.png";
@@ -121,21 +121,23 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-image">
-                        <img src={budgetApp} alt="Budget App"></img>
+                        <img
+                            src={southwestmt}
+                            alt="Southwest Montana website"
+                        ></img>
                     </div>
-                    <h3 className="project-title">Budget Tracker App</h3>
+                    <h3 className="project-title">Visit Southwest MT</h3>
                     <p className="project-paragraph">
-                        Providing users with an easy-to-use interface to add and
-                        manage their income and expenses, and automatically
-                        calculating and displaying their current balance.
-                        Developed using a combination of advanced React
-                        programming techniques, including hooks such as
-                        useState, useContext, and useReducer, as well as various
-                        Javascript methods.
+                        The website features stunning photos of Montana's
+                        natural beauty, along with information about popular
+                        destinations, outdoor activities, accommodations, and
+                        events. I used Bootstrap's grid system and responsive
+                        design features to ensure that the website is easy to
+                        navigate and looks great on any device.
                     </p>
                     <div className="portfolio_item-cta">
                         <a
-                            href="https://github.com/RemleyNick/budget-app-react"
+                            href="https://github.com/RemleyNick/Montana-Bootstrap"
                             className="btn"
                             target="_blank"
                             rel="noreferrer"
@@ -143,7 +145,7 @@ const Portfolio = () => {
                             Github
                         </a>
                         <a
-                            href="https://keep-budget-react.netlify.app/"
+                            href="https://southwestmt.netlify.app/"
                             className="btn btn-primary"
                             target="_blank"
                             rel="noreferrer"
@@ -187,11 +189,11 @@ const Portfolio = () => {
                     <p className="project-paragraph">
                         The lifespan tracker application can serve as a tool to
                         promote self-reflection and goal-setting, as well as a
-                        visualization of the passage of time. The tracker prompts
-                        the user to enter their date of birth, then highlights a
-                        grid of boxes representing their weeks lived and the
-                        average life expectency - built using HTML, CSS, and
-                        JavaScript.
+                        visualization of the passage of time. The tracker
+                        prompts the user to enter their date of birth, then
+                        highlights a grid of boxes representing their weeks
+                        lived and the average life expectency - built using
+                        HTML, CSS, and JavaScript.
                     </p>
                     <div className="portfolio_item-cta">
                         <a
